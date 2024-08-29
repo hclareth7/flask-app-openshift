@@ -1,0 +1,30 @@
+# Entornos virtuales de Python
+venv/
+ENV/
+.venv/
+
+# Archivos de configuración de Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Configuraciones de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Docker
+*.log
+
+*.swp
+
+# Archivos y directorios de despliegue
+*.env
+*.dockerignore
+
+# Archivos relacionados con OpenShift
+.openshift/
